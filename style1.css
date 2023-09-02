@@ -1,0 +1,90 @@
+hr{
+background-color: red;
+}
+.font1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 70px;
+    color: rgb(9, 113, 106);
+}
+#font2{
+    font-size: 60px;
+    color: rgb(255, 153, 0);
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+}
+#color1{
+    color: blueviolet;
+}
+#style1{
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+.inner1{
+  display: inline-block;
+  width: 45%;
+  margin-top: 50px;
+}
+.inner2{
+    width: 50%;
+    top: 5.9rem;
+    float: right;
+    margin-top: 50px;
+}
+.common > .float{
+   float: left;
+   height: 200px;
+   width: 350px;
+   margin: 20px;
+   border-radius: 10px;
+   border: 5px solid rgb(148, 148, 231);
+}
+footer{
+    text-align: center;
+    color: blue;
+    font-size:20px;
+    margin-top: 30px;
+}
+@media (max-width: 680px){
+    .font1{
+        text-align: center;
+        font-size: 35px;
+    }
+    #font2{
+        text-align: left;
+        font-size: 30px;
+    }
+    #style1{
+        text-align: center;
+        font-size: 40px;
+    }
+    .common > .float{
+        height: 200px;
+        width: 350px;
+        margin: 10px;
+        border-radius: 10px;
+        border: 5px solid rgb(148, 148, 231);
+    }
+    .inner1{
+        display: block;
+        margin-top: 25px;
+    }
+    .inner2{
+        display: block;
+        margin-top: 25px;
+        float: none;
+    }
+    .common p {
+        text-align:justify;
+        width: 200%;
+    }
+    h2{
+        width: 200%;
+    }
+    .inner2>.float{
+        margin-right: 50px;
+    }
+   
+}
